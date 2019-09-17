@@ -5,6 +5,8 @@ end
 attr_reader :brand
 attr_accessor :size, :color, :material, :condition
 
-def cobble=(cobble)
+def cobble()
+  condition = "new"
+  puts "Your shoe is as good as new!"
 
 end 
